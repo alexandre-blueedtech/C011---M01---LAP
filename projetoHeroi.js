@@ -11,45 +11,45 @@ Até que em uma noite, muito discreto, Vlad consegue isolar o jovem e o começa 
 console.log();
 
 console.log('Olá, sou o Detetive Vlad e gostaria de fazer algumas perguntas, não temos muito tempo e preciso que seja breve, suas respostas devem ser Sim ou Não apenas, ok?! Certo, você esteve no ROZCOZOVO no dia 21/02 às 20:00?');
-let perg1 = prompt(`Diga, Sim ou Não? `);
+let perg1 = prompt(`Diga, Sim ou Não? `).toLowerCase();
 console.log();
 
-let perg2 = prompt(`Você conhece este homem? Seu nome é Iuri Askov `);
+let perg2 = prompt(`Você conhece este homem? Seu nome é Iuri Askov. `).toLowerCase();
 console.log();
 
-let perg3 = prompt(`Certo, você se encontrou com ele em algum momento no dia 21/02? `);
+let perg3 = prompt(`Certo, você se encontrou com ele em algum momento no dia 21/02? `).toLowerCase();
 console.log();
 
 console.log('Obrigado pelas respostas, suas informações me ajudaram a entender mais sobre o caso. É arriscado fazer qualquer coisa aqui, ainda mais num lugar como esse, um restaurante da elite frequentado até por membros da máfia, você sempre frequenta esse tipo de ambiente? ');
-let perg4 = prompt(`Diga, Sim ou Não? `);
+let perg4 = prompt(`Diga, Sim ou Não? `).toLowerCase();
 console.log();
 
 console.log('Entendo...  mais uma vez obrigado pelas informações! Para finalizarmos, vi você saindo de um sedã preto com rodas de faixa branca, o carro é seu? ');
-let perg5 = prompt(``);
+let perg5 = prompt(``).toLowerCase();
 let x = 0;
 console.log();
 
-if(perg1 == 'Sim'){
+if(perg1 == 'sim'){
     x = x + 1
 }else{
     
 }
-if(perg2 == 'Sim'){
+if(perg2 == 'sim'){
     x = x + 1
 }else{
 
 }
-if(perg3 == 'Sim'){
+if(perg3 == 'sim'){
     x = x + 1
 }else{
 
 }
-if(perg4 == 'Sim'){
+if(perg4 == 'sim'){
     x = x + 1
 }else{
 
 }
-if(perg5 == 'Sim'){
+if(perg5 == 'sim'){
     x = x + 1
 }else{
 
@@ -68,3 +68,4 @@ if(x == 0){
 } else if(x == 5){
     console.log(`Perfeito!! Tudo se encaixa e não há como ele escapar, valeu a pena todo o trabalho feito. Realmente não existem crimes perfeitos, pois a falha de todos eles, sou eu!`)
 }
+
